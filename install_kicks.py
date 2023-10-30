@@ -60,6 +60,8 @@ try:
         builder.submit_and_check(injcl.read())
     with open("{}/CLIST.jcl".format(cwd), "r") as injcl:
         builder.submit_and_check(injcl.read())
+    with open("{}/ALIAS.jcl".format(cwd), "r") as injcl:
+        builder.submit_and_check(injcl.read())
 # except:
 #     with open("/MVSCE/printers/prt00e.txt", "r") as prt:
 #        print(prt.read())
