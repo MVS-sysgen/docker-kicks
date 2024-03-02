@@ -12,7 +12,6 @@ on:
 jobs:
 # Sysgen
   mvsce-kicks:
-    needs: mvsce-sysgen
     name: MVS/CE Kicks Cross Platform Docker
     runs-on: [ubuntu-latest]     
     steps:
